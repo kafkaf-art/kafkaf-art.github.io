@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*
+font-family: 'Kosugi Maru', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3c1c4;
+    color: #0f1024;
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Kosugi Maru', sans-serif
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+img {
+    vertical-align: bottom:
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1f329b;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7177b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100vw;
+    height: auto;
+    overflow:auto;
+    background-color: #fff;
+
+}
+
+
+#logo {
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+#global-nav {
+    float: right;
+}
+
+#global-nav li {
+    float: left;
+    margin-top: 30px;
+    width: 20vw;
+    font-size: 1em;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    border-color: black 1px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:650px){
+#global-nav li {
+    margin-top: 0px;
+        width: 30vw;
+}
+}
+
+
+#global-nav li a:hover {
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+
+#wrap {
+    clear: both;
+    text-align: center;
+    background-color: transparent;
+}
+
+.content {
+    width: 90vw;
+    margin: 0 35px ;
+    background-color: transparent;
+}
+
+.timeline_art {
+    margin: 3px 5vw 60px 3vw;
+    border-radius: 10px;
+    max-width: 750px;
+}
+
+.table{
+    display:table;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.table-cell{
+    display:table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    color: #0f1024;
+    padding: 20px 0;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+
+#timeline_art{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-radius: 3px;
+}
+
+.twitter-timline{
+
+}
+
+
+div{
+    background-color: white;
+}

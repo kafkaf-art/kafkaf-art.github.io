@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/*
+font-family: 'Kosugi Maru', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3c1c4;
+    color: #0f1024;
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Kosugi Maru', sans-serif
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+img {
+    vertical-align: bottom:
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1f329b;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7177b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100vw;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.logo {
+    padding-left: 0px;
+    float: left;
+    height: 5vw;
+}
+
+.global-nav {
+    float: right;
+    margin-top: 1vh;
+}
+
+.global-nav li {
+    float: left;
+    width: 30vw;
+    font-size: 15px;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    border-color: black 1px;
+    overflow: hidden;
+
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+
+
+
+#wrap {
+    clear: both;
+}
+
+.content-title{
+    text-align: center;
+    width: 70vw;
+    max-width: 750px;
+    height: 70vw;
+    max-height: 750px;
+    margin:15px auto;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.29);
+}
+
+.logo-top {
+    width: 70vw;
+    max-width: 750px;
+    margin-top: 10vw;
+}
+
+.text-top {
+    width: 70vw;
+    max-width: 750px;
+    font-size: 3vw;
+}
+
+@media (min-width:1280px) {
+ 
+    .text-top {
+    font-size: 36px;
+}
+    
+}
+
+
+.FKKI {
+    position: relative;
+    width: 95%;
+    padding-top: 0;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.FKKI #text,
+.FKKI #result {
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+.FKKI iframe {
+    display: block;
+    margin: auto;
+    width: 50vw !important;
+    height: 50vw !important;
+ }
+
+footer {
+    text-align: center;
+    color: #0f1024;
+    margin: 100px 0;
+    padding: 30px 0;
+}
+
+footer small {
+    font-size: 12px;
+}
+
